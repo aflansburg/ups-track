@@ -14,3 +14,6 @@ UPS tracking page for the shipping progress/status data table.
 
 It is not incredibly fast for obvious reasons, but it does work and it is
 simple.
+
+The output path is currently ```output/ups_track_status.csv``` so this may
+need to be altered to match your directory structure.
