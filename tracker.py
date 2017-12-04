@@ -24,9 +24,9 @@ def get_statuses(file):
         return statuses
 
 
-def write_to_file(status_dict):
+def write_to_file(status_dict, output_file):
     print(status_dict)
-    out_file = 'ups_track_status.csv'
+    out_file = output_file
     col_names = ['trk_no', 'status_date', 'status']
 
     with open(out_file, 'w', newline='') as csv_file:

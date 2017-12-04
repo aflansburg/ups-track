@@ -11,7 +11,7 @@ parser.add_argument('outfile', type=str, nargs='?',
 args = parser.parse_args()
 if args.infile is not None and args.outfile is not None:
     data = get_statuses(args.infile)
-    write_to_file(data)
+    write_to_file(data, args.outfile)
     print(data)
 else:
     print(parser.usage)
